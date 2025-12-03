@@ -150,6 +150,8 @@ img {
   :root {
     --font-size-3xl: 2.5rem;
     --font-size-4xl: 3rem;
+     --color-primary: #667eea; /* Try: #3b82f6, #8b5cf6, #10b981 */
+     --color-secondary: #764ba2; /* Try: #6366f1, #a855f7, #059669 */
   }
 
   .container {
@@ -166,5 +168,7 @@ img {
   :root {
     --font-size-3xl: 3rem;
     --font-size-4xl: 3.5rem;
+    --color-primary: #667eea; /* Try: #3b82f6, #8b5cf6, #10b981 */
+    --color-secondary: #764ba2; /* Try: #6366f1, #a855f7, #059669 */
   }
 }

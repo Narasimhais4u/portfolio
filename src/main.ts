@@ -60,6 +60,8 @@ function setupMobileMenu(): void {
 function validateEmail(email: string): boolean {
   // TODO: Implement email validation using regex
   // Replace 'true' with actual validation logic
+  console.log(email);
+
   return true;
 }
 
@@ -80,6 +82,7 @@ function validateEmail(email: string): boolean {
 function validateRequired(value: string): boolean {
   // TODO: Check if value is not empty after trimming
   // Replace 'true' with actual validation logic
+  console.log(value);
   return true;
 }
 
@@ -100,6 +103,8 @@ function validateRequired(value: string): boolean {
 function validateMinLength(value: string, minLength: number): boolean {
   // TODO: Check if value length is >= minLength
   // Replace 'true' with actual validation logic
+  console.log(value);
+  console.log(minLength);
   return true;
 }
 

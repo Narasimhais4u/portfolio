@@ -105,6 +105,7 @@ function validateMinLength(value: string, minLength: number): boolean {
   // Replace 'true' with actual validation logic
   console.log(value);
   console.log(minLength);
+    console.log(minLength);
   return true;
 }
 
@@ -130,6 +131,7 @@ function setupContactForm(): void {
     const messageInput = document.getElementById(
       "message",
     ) as HTMLTextAreaElement;
+
 
     const name = nameInput?.value || "";
     const email = emailInput?.value || "";

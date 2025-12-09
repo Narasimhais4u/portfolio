@@ -58,11 +58,9 @@ function setupMobileMenu(): void {
  * validateEmail('no@domain') → false
  */
 function validateEmail(email: string): boolean {
-  // TODO: Implement email validation using regex
-  // Replace 'true' with actual validation logic
-  console.log(email);
+  const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
-  return true;
+  return emailRegex.test(email);
 }
 
 /**
@@ -80,10 +78,7 @@ function validateEmail(email: string): boolean {
  * validateRequired('   ') → false (only spaces)
  */
 function validateRequired(value: string): boolean {
-  // TODO: Check if value is not empty after trimming
-  // Replace 'true' with actual validation logic
-  console.log(value);
-  return true;
+ if (value.trim() === '' ) { return false } else { return true };
 }
 
 /**
@@ -103,9 +98,7 @@ function validateRequired(value: string): boolean {
 function validateMinLength(value: string, minLength: number): boolean {
   // TODO: Check if value length is >= minLength
   // Replace 'true' with actual validation logic
-  console.log(value);
-  console.log(minLength);
-    console.log(minLength);
+if (value.trim().length  < minLength) { return false } else { return true };
   return true;
 }
 
